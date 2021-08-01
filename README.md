@@ -1,4 +1,4 @@
-# tradeprocessor
+# Trade Processor
 Trades processing system
 
 Trade processing system has been taken care with the following validations (in future we can add/enhance the validators) 
