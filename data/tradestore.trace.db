@@ -73,3 +73,6 @@ org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic c
 	at java.lang.Iterable.forEach(Iterable.java:75)
 	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:100)
 	at java.lang.Thread.run(Thread.java:748)
+2021-11-27 20:55:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE TRANSACTION (TRANSACTION_ID INTEGER NOT NULL, AMOUNT DOUBLE, FROM[*] VARCHAR(255), NOTE VARCHAR(255), STATUS VARCHAR(255), TO VARCHAR(255), USER_ID VARCHAR(255), PRIMARY KEY (TRANSACTION_ID)) "; expected "identifier"; SQL statement:
+create table transaction (transaction_id integer not null, amount double, from varchar(255), note varchar(255), status varchar(255), to varchar(255), user_id varchar(255), primary key (transaction_id)) [42001-194]
